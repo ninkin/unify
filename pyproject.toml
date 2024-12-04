@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "unify"
+version = "v0.5.1"
+description = ""
+authors = ["bongkyung <bongkyung.ko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+unify = "unify:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["E", "F", "I", "Q", "UP"]
+line-length = 120
+ignore = ["E402", "E741", "UP006", "UP007", "UP035", "F841"]
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.isort]
+
+[tool.ruff.format]
+# Prefer single quotes over double quotes.
+quote-style = "single"
