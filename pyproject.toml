@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "unify"
 version = "v0.5.1"
-description = ""
-authors = ["bongkyung <bongkyung.ko@gmail.com>"]
+description = "Modifies strings to all use the same (single/double) quote where possible."
+authors = ["Steven Myint<git@stevenmyint.com>", "bongkyung <bongkyung.ko@gmail.com>"]
 readme = "README.md"
+license = "Expat"
 
 [tool.poetry.dependencies]
 python = "^3.8"
