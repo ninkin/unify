@@ -2,7 +2,7 @@
 name = "unify"
 version = "v0.5.1"
 description = "Modifies strings to all use the same (single/double) quote where possible."
-authors = ["Steven Myint<git@stevenmyint.com>", "bongkyung <bongkyung.ko@gmail.com>"]
+authors = ["Steven Myint <git@stevenmyint.com>", "bongkyung <bongkyung.ko@gmail.com>"]
 readme = "README.md"
 license = "Expat"
 
